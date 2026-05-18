@@ -1,0 +1,29 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: container
+spec:
+  author: sportshead
+  flag: gaslightCTF{dockerfile_test_flag}
+  flagFormat: gaslightCTF{...}
+  description: 'Infra test challenge. Connect to get the flag.
+
+    '
+  difficulty: easy
+  categories:
+    - misc
+  tags:
+    - infra
+    - test
+  containers:
+    - hostname: chall
+      image: ghcr.io/gaslightctf/challs-2026/container:dev
+      ports:
+        - port: 1337
+          protocol: tcp
+          type: publicTlsRoute
+      dynamicFlag:
+        env:
+          name: FLAG
+  attachments: []
