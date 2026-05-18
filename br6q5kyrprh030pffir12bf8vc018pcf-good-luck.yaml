@@ -17,5 +17,5 @@ spec:
   categories:
     - forensics
   attachments:
-    - fileName: attachments/goodluck2.mp3
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/br6q5kyrprh030pffir12bf8vc018pcf-good-luck/attachments/goodluck2.mp3
+    - fileName: goodluck2.mp3
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/br6q5kyrprh030pffir12bf8vc018pcf-good-luck/goodluck2.mp3
