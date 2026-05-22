@@ -27,4 +27,6 @@ spec:
       dynamicFlag:
         env:
           name: FLAG
-  attachments: []
+  attachments:
+    - fileName: dockerfile.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/5zx5r5qgis9rbgp2bxzh34ab598irqiy-dockerfile/dockerfile.tar.zst
