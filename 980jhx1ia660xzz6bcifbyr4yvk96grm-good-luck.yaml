@@ -8,9 +8,7 @@ spec:
   author: riyc
   flag: gaslightCTF{c4n_u_s33_me?_u4ya}
   flagFormat: gaslightCTF{...}
-  description: 'TODO
-
-    Good luck!
+  description: 'Good luck!
 
     '
   difficulty: easy
@@ -18,4 +16,4 @@ spec:
     - forensics
   attachments:
     - fileName: goodluck2.mp3
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/br6q5kyrprh030pffir12bf8vc018pcf-good-luck/goodluck2.mp3
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/980jhx1ia660xzz6bcifbyr4yvk96grm-good-luck/goodluck2.mp3

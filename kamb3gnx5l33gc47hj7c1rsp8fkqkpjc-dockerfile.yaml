@@ -7,7 +7,7 @@ spec:
   author: sportshead
   flag: gaslightCTF{dockerfile_test_flag}
   flagFormat: gaslightCTF{...}
-  description: 'Infra test challenge. Connect to get the flag.
+  description: 'Infra test challenge. Connect to get the flag!
 
     '
   difficulty: easy
@@ -29,4 +29,4 @@ spec:
           name: FLAG
   attachments:
     - fileName: dockerfile.tar.zst
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/5zx5r5qgis9rbgp2bxzh34ab598irqiy-dockerfile/dockerfile.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/kamb3gnx5l33gc47hj7c1rsp8fkqkpjc-dockerfile/dockerfile.tar.zst
