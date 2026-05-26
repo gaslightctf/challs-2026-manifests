@@ -19,7 +19,7 @@ spec:
     - rfc959
   containers:
     - hostname: The_ARPANET_era
-      image: ghcr.io/gaslightctf/challs-2026/The_ARPANET_era:dev
+      image: ghcr.io/gaslightctf/challs-2026/the_arpanet_era:dev
       ports:
         - port: 2121
           protocol: tcp
