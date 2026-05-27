@@ -9,6 +9,10 @@ spec:
   flagFormat: gaslightCTF{...}
   description: 'A good old FTP server.
 
+    User: Rebecca
+
+    Password: qwertyuiop
+
     '
   difficulty: easy
   categories:
