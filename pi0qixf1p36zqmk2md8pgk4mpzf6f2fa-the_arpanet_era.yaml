@@ -8,15 +8,15 @@ spec:
   flag: gaslightCTF{ftp_c0mm4nd_6ee3b619f2bae8d79f672365a21df52d}
   flagFormat: gaslightCTF{...}
   displayName: The ARPANET era
-  description: 'A good old FTP server. \
+  description: 'A good old FTP server. <br>
 
 
-    User: `Rebecca` \
+    User: <code>Rebecca</code> <br>
 
-    Password: `qwertyuiop` \
+    Password: <code>qwertyuiop</code> <br>
 
-    tip: use `socat TCP-LISTEN:2121,fork,reuseaddr SSL:host:31337` to forward the
-    port locally
+    tip: use <code>socat TCP-LISTEN:2121,fork,reuseaddr SSL:host:31337</code> to forward
+    the port locally
 
     '
   difficulty: easy
