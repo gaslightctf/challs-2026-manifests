@@ -1,0 +1,21 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: compiled-source-sheets
+spec:
+  author: sportshead
+  flag: gaslightCTF{ch3ck_0ut_lyra-horse!!_2QY90H6F}
+  flagFormat: gaslightCTF{...}
+  description: 'My new VM is Spectre-proof! It''s also guaranteed race-condition free,
+    and runs on every major OS <small>albeit on Chrom(e|ium)</small>. Try it out!
+
+    '
+  difficulty: medium
+  categories:
+    - rev
+  tags:
+    - turing
+  attachments:
+    - fileName: compiled-source-sheets.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/j0r6srvndqaxxh9imnpxq9lk67pyqx25-compiled-source-sheets/compiled-source-sheets.tar.zst
