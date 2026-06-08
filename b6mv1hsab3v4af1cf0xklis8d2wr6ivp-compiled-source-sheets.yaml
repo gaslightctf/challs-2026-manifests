@@ -8,7 +8,12 @@ spec:
   flag: gaslightCTF{ch3ck_0ut_lyra-horse!!_2QY90H6F}
   flagFormat: gaslightCTF{...}
   description: 'My new VM is Spectre-proof! It''s also guaranteed race-condition free,
-    and runs on every major OS <small>albeit on Chrom(e|ium)</small>. Try it out!
+    and runs on every major OS <sup>[1]</sup>. Try it out!
+
+
+    <br><br>
+
+    <aside style="font-size: 0.7em">[1] that supports Chrom(e|ium)</aside>
 
     '
   difficulty: medium
@@ -18,4 +23,4 @@ spec:
     - turing
   attachments:
     - fileName: compiled-source-sheets.tar.zst
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/j0r6srvndqaxxh9imnpxq9lk67pyqx25-compiled-source-sheets/compiled-source-sheets.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/b6mv1hsab3v4af1cf0xklis8d2wr6ivp-compiled-source-sheets/compiled-source-sheets.tar.zst
