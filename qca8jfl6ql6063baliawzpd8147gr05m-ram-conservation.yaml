@@ -14,8 +14,6 @@ spec:
   difficulty: easy
   categories:
     - pwn
-  tags:
-    - bash
   containers:
     - hostname: chall
       image: ghcr.io/gaslightctf/challs-2026/ram-conservation:dev

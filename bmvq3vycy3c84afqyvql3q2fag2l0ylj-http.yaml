@@ -16,9 +16,6 @@ spec:
   difficulty: easy
   categories:
     - web
-  tags:
-    - template
-    - nginx
   containers:
     - hostname: nginx
       image: nginx:latest

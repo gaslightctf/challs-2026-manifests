@@ -15,8 +15,6 @@ spec:
   difficulty: easy
   categories:
     - misc
-  tags:
-    - nodejs
   containers:
     - hostname: jsbox
       image: ghcr.io/gaslightctf/challs-2026/jsbox:dev

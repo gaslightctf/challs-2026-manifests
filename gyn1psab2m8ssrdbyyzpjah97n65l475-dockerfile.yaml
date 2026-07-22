@@ -13,9 +13,6 @@ spec:
   difficulty: easy
   categories:
     - misc
-  tags:
-    - infra
-    - test
   containers:
     - hostname: chall
       image: ghcr.io/gaslightctf/challs-2026/dockerfile:dev
@@ -29,4 +26,4 @@ spec:
           name: FLAG
   attachments:
     - fileName: dockerfile.tar.zst
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/kamb3gnx5l33gc47hj7c1rsp8fkqkpjc-dockerfile/dockerfile.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/gyn1psab2m8ssrdbyyzpjah97n65l475-dockerfile/dockerfile.tar.zst

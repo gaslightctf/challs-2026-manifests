@@ -22,10 +22,6 @@ spec:
   difficulty: easy
   categories:
     - misc
-  tags:
-    - ftp
-    - networking
-    - rfc959
   containers:
     - hostname: the-arpanet-era
       image: ghcr.io/gaslightctf/challs-2026/the_arpanet_era:dev

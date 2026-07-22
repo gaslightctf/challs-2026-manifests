@@ -4,6 +4,7 @@ metadata:
   namespace: berg
   name: compiled-source-sheets
 spec:
+  displayName: Compiled Source Sheets
   author: sportshead
   flag: gaslightCTF{ch3ck_0ut_lyra-horse!!_2QY90H6F}
   flagFormat: gaslightCTF{...}
@@ -19,8 +20,6 @@ spec:
   difficulty: medium
   categories:
     - rev
-  tags:
-    - turing
   attachments:
     - fileName: compiled-source-sheets.tar.zst
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/rj3s55yjyl4r5qxi1f1y9bik5slkcxgf-compiled-source-sheets/compiled-source-sheets.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/yjqr9l3aj0r3a47isixy981i4c605av4-compiled-source-sheets/compiled-source-sheets.tar.zst
