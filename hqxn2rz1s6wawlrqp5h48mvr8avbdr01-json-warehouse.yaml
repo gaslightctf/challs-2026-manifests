@@ -4,7 +4,7 @@ metadata:
   namespace: berg
   name: json-warehouse
 spec:
-  author: Donald Trump
+  author: sportshead
   flag: gaslightCTF{p0llut3d_w4r3h0us3s_ar3nt_v3ry_s4f3_c0nd1ti0ns}
   flagFormat: gaslightCTF{...}
   description: 'Can you break into this warehouse? Don''t worry, I told Claude to
@@ -15,7 +15,7 @@ spec:
   categories:
     - web
   containers:
-    - hostname: nginx
+    - hostname: warehouse
       image: ghcr.io/gaslightctf/challs-2026/json-warehouse:dev
       ports:
         - port: 3000
@@ -25,4 +25,6 @@ spec:
       dynamicFlag:
         env:
           name: FLAG
-  attachments: []
+  attachments:
+    - fileName: json-warehouse.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/hqxn2rz1s6wawlrqp5h48mvr8avbdr01-json-warehouse/json-warehouse.tar.zst
