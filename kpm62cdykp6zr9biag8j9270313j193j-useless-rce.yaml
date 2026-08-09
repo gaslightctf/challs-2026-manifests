@@ -15,7 +15,7 @@ spec:
     pure functional programming language.
 
     '
-  difficulty: easy
+  difficulty: medium
   categories:
     - misc
   containers:

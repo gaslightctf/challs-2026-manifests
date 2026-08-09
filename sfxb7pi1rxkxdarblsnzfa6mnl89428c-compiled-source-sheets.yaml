@@ -17,9 +17,9 @@ spec:
     <aside style="font-size: 0.7em">[1] that supports Chrom(e|ium)</aside>
 
     '
-  difficulty: medium
+  difficulty: hard
   categories:
     - rev
   attachments:
     - fileName: compiled-source-sheets.tar.zst
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/yjqr9l3aj0r3a47isixy981i4c605av4-compiled-source-sheets/compiled-source-sheets.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/sfxb7pi1rxkxdarblsnzfa6mnl89428c-compiled-source-sheets/compiled-source-sheets.tar.zst
