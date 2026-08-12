@@ -7,7 +7,7 @@ spec:
   author: sportshead
   flag: gaslightCTF{52.196,0.115}
   flagFormat: gaslightCTF{1.234,56.789}
-  description: 'Flag format: <code>gaslightCTF{LAT,LONG}</code> (3 d.p.)
+  description: 'Flag format: <code>gaslightCTF{LAT,LONG}</code> (round to 3 d.p.)
 
     <br>
 
@@ -19,4 +19,4 @@ spec:
     - forensics
   attachments:
     - fileName: IMG_0734.jpeg
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/j5hwrhglp3agznr4pfp5m961433q5zg5-quack/IMG_0734.jpeg
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/36aan8fip2bjj6vbbm8wiciq669gsz8s-quack/IMG_0734.jpeg
