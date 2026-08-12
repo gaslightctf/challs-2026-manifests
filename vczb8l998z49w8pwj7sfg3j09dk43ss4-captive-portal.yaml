@@ -14,4 +14,15 @@ spec:
   difficulty: easy
   categories:
     - web
+  containers:
+    - hostname: chall
+      image: ghcr.io/gaslightctf/challs-2026/captive-portal:dev
+      ports:
+        - port: 1337
+          protocol: tcp
+          appProtocol: tcp
+          type: publicTlsRoute
+      dynamicFlag:
+        env:
+          name: FLAG
   attachments: []
