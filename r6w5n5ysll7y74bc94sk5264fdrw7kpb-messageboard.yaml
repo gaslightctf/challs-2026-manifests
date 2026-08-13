@@ -1,0 +1,31 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: messageboard
+spec:
+  author: sportshead
+  flag: gaslightCTF{ar3_y0u_my_cl0s3_fr13nd_n0w?}
+  flagFormat: gaslightCTF{...}
+  description: 'I left a little message for only my closest friends :)
+
+    '
+  difficulty: easy
+  categories:
+    - web
+  containers:
+    - hostname: messageboard
+      image: ghcr.io/gaslightctf/challs-2026/messageboard:dev
+      ports:
+        - port: 3000
+          protocol: tcp
+          appProtocol: http
+          type: publicHttpRoute
+      dynamicFlag:
+        env:
+          name: FLAG
+    - hostname: db
+      image: ghcr.io/gaslightctf/challs-2026/messageboard-db:dev
+  attachments:
+    - fileName: messageboard.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/r6w5n5ysll7y74bc94sk5264fdrw7kpb-messageboard/messageboard.tar.zst
