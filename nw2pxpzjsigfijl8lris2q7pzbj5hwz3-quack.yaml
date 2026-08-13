@@ -11,7 +11,7 @@ spec:
 
     <br>
 
-    tip: please try +-0.001 on your latitude!
+    tip: please try &pm;0.001 on your latitude!
 
     '
   difficulty: easy
@@ -19,4 +19,4 @@ spec:
     - forensics
   attachments:
     - fileName: IMG_0734.jpeg
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/36aan8fip2bjj6vbbm8wiciq669gsz8s-quack/IMG_0734.jpeg
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/nw2pxpzjsigfijl8lris2q7pzbj5hwz3-quack/IMG_0734.jpeg
