@@ -30,4 +30,6 @@ spec:
         content:
           path: /flag
           mode: 292
-  attachments: []
+  attachments:
+    - fileName: useless-rce.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/wds8gninq7ikv7an5d76c9nxpinm82ln-useless-rce/useless-rce.tar.zst
