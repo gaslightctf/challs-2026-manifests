@@ -1,0 +1,30 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: json-warehouse
+spec:
+  author: sportshead
+  flag: gaslightCTF{p0llut3d_w4r3h0us3s_ar3nt_v3ry_s4f3_c0nd1ti0ns}
+  flagFormat: gaslightCTF{...}
+  description: 'Can you break into this warehouse? Don''t worry, I told Claude to
+    make no mistakes!
+
+    '
+  difficulty: medium
+  categories:
+    - web
+  containers:
+    - hostname: warehouse
+      image: ghcr.io/gaslightctf/challs-2026/json-warehouse:dev
+      ports:
+        - port: 3000
+          protocol: tcp
+          appProtocol: http
+          type: publicHttpRoute
+      dynamicFlag:
+        env:
+          name: FLAG
+  attachments:
+    - fileName: json-warehouse.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/qx8v33pyd2yqf79xxkk0gm3jnry1rnai-json-warehouse/json-warehouse.tar.zst

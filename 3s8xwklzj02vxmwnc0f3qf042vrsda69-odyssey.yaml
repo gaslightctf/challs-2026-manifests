@@ -1,0 +1,22 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: odyssey
+spec:
+  author: sportshead
+  flag: gaslightCTF{23.724,37.974}
+  flagFormat: gaslightCTF{1.234,56.789}
+  description: 'Do I colour grade better than Christopher Nolan?
+
+    <br>
+
+    Flag format: <code>gaslightCTF{LAT,LONG}</code> (round to 3 d.p.)
+
+    '
+  difficulty: easy
+  categories:
+    - forensics
+  attachments:
+    - fileName: 02.jpg
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/3s8xwklzj02vxmwnc0f3qf042vrsda69-odyssey/02.jpg

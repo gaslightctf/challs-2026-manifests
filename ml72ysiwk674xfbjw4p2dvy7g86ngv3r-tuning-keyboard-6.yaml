@@ -1,0 +1,25 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: tuning-keyboard-6
+spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
+  displayName: Tuning Keyboard v6.7
+  author: sportshead
+  flag: gaslightCTF{p14n01nr0bl0x1sh4rd}
+  flagFormat: gaslightCTF{...}
+  description: 'this song’s ending sounds a bit strange…
+
+    <br><br>
+
+    note: punctuation has been omitted. insert brackets as appropriate, there is no
+    other punctuation
+
+    '
+  difficulty: medium
+  categories:
+    - forensics
+  attachments:
+    - fileName: ttyut-iiiuy+12.wav
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/ml72ysiwk674xfbjw4p2dvy7g86ngv3r-tuning-keyboard-6/ttyut-iiiuy+12.wav

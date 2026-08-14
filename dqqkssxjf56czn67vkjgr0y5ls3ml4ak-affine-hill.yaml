@@ -1,0 +1,22 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: affine-hill
+spec:
+  author: william_etotheipi
+  flag: gaslightCTF{kn0wn-pl41nt3xt-4tt4cks-4r3-sup3r-s1mpl3}
+  flagFormat: gaslightCTF{...}
+  description: "Many classical ciphers are inherently vulnerable to known-plaintext\
+    \ attacks. \nUnfortunately, your obstinate friend claimed that his original Affine-Hill\
+    \ Cipher, \ninspired by the Affine Cipher and Hill Cipher, is invulnerable to\
+    \ such attacks. \nHe posed a challenge to anyone that claims he’s wrong. \n<br><br>\n\
+    Can you break his cipher by recovering the keywords?\n"
+  difficulty: medium
+  categories:
+    - crypto
+  attachments:
+    - fileName: encrypt.py
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/dqqkssxjf56czn67vkjgr0y5ls3ml4ak-affine-hill/encrypt.py
+    - fileName: output.txt
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/dqqkssxjf56czn67vkjgr0y5ls3ml4ak-affine-hill/output.txt
