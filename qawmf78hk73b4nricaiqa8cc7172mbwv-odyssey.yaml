@@ -5,7 +5,7 @@ metadata:
   name: odyssey
 spec:
   author: sportshead
-  flag: gaslightCTF{23.724,37.974}
+  flag: gaslightCTF{37.974,23.724}
   flagFormat: gaslightCTF{1.234,56.789}
   description: 'Do I colour grade better than Christopher Nolan?
 
@@ -16,7 +16,7 @@ spec:
     '
   difficulty: easy
   categories:
-    - forensics
+    - misc
   attachments:
     - fileName: 02.jpg
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/3s8xwklzj02vxmwnc0f3qf042vrsda69-odyssey/02.jpg
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/qawmf78hk73b4nricaiqa8cc7172mbwv-odyssey/02.jpg
