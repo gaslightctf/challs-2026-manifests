@@ -2,7 +2,7 @@ apiVersion: berg.norelect.ch/v1
 kind: Challenge
 metadata:
   namespace: berg
-  name: container
+  name: crawl
 spec:
   author: sportshead
   flag: gaslightCTF{LLM_1nduc3d_4r4chn0ph0b1a}
