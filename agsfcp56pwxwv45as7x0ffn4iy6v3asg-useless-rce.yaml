@@ -32,4 +32,4 @@ spec:
           mode: 292
   attachments:
     - fileName: useless-rce.tar.zst
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/gz6n925j6y9shpb7a29wpk5sf3m6ld62-useless-rce/useless-rce.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/agsfcp56pwxwv45as7x0ffn4iy6v3asg-useless-rce/useless-rce.tar.zst
