@@ -26,6 +26,11 @@ spec:
           name: FLAG
     - hostname: db
       image: ghcr.io/gaslightctf/challs-2026/messageboard-db:dev
+      ports:
+        - port: 5432
+          protocol: tcp
+          appProtocol: postgresql
+          type: internalPort
   attachments:
     - fileName: messageboard.tar.zst
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/r33lrnjkh8sm2xrmmnjk14phfxixlh2k-messageboard/messageboard.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/xhgrsfww21k4s26qgsf1xrgcdrh929ds-messageboard/messageboard.tar.zst
