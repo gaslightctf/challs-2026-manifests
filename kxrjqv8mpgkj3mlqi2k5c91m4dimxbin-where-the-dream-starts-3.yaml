@@ -13,7 +13,7 @@ spec:
 
     <br><br>
 
-    A very nice classic.
+    A modification of a very nice classic.
 
     '
   difficulty: medium
@@ -21,6 +21,6 @@ spec:
     - crypto
   attachments:
     - fileName: output.txt
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/k22yrsd9cl653hapxvr18l6dx73svg12-where-the-dream-starts-3/output.txt
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/kxrjqv8mpgkj3mlqi2k5c91m4dimxbin-where-the-dream-starts-3/output.txt
     - fileName: encrypt.py
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/k22yrsd9cl653hapxvr18l6dx73svg12-where-the-dream-starts-3/encrypt.py
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/kxrjqv8mpgkj3mlqi2k5c91m4dimxbin-where-the-dream-starts-3/encrypt.py
