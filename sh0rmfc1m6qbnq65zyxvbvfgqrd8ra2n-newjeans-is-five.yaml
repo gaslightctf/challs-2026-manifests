@@ -15,4 +15,8 @@ spec:
   difficulty: hard
   categories:
     - crypto
-  attachments: []
+  attachments:
+    - fileName: chall.py
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/sh0rmfc1m6qbnq65zyxvbvfgqrd8ra2n-newjeans-is-five/chall.py
+    - fileName: output.txt
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/sh0rmfc1m6qbnq65zyxvbvfgqrd8ra2n-newjeans-is-five/output.txt
