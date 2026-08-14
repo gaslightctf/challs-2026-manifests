@@ -4,6 +4,7 @@ metadata:
   namespace: berg
   name: tuning-keyboard-6
 spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
   displayName: Tuning Keyboard v6.7
   author: sportshead
   flag: gaslightCTF{p14n01nr0bl0x1sh4rd}
@@ -21,4 +22,4 @@ spec:
     - forensics
   attachments:
     - fileName: ttyut-iiiuy+12.wav
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/4pa1sh6lpj32qpncxr7g86yg674r7xz9-tuning-keyboard-6/ttyut-iiiuy+12.wav
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/ml72ysiwk674xfbjw4p2dvy7g86ngv3r-tuning-keyboard-6/ttyut-iiiuy+12.wav

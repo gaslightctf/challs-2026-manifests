@@ -4,6 +4,7 @@ metadata:
   namespace: berg
   name: where-the-dream-starts-3
 spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
   author: william_etotheipi
   flag: gaslightCTF{theindecipherablecipher}
   flagFormat: gaslightCTF{...}
@@ -20,7 +21,7 @@ spec:
   categories:
     - crypto
   attachments:
-    - fileName: output.txt
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/kxrjqv8mpgkj3mlqi2k5c91m4dimxbin-where-the-dream-starts-3/output.txt
     - fileName: encrypt.py
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/kxrjqv8mpgkj3mlqi2k5c91m4dimxbin-where-the-dream-starts-3/encrypt.py
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/iq2a61hny6kckdnr3mj6g0x3hxhl2y0v-where-the-dream-starts-3/encrypt.py
+    - fileName: output.txt
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/iq2a61hny6kckdnr3mj6g0x3hxhl2y0v-where-the-dream-starts-3/output.txt

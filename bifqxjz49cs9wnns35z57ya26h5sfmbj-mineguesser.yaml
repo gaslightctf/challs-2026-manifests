@@ -4,6 +4,7 @@ metadata:
   namespace: berg
   name: mineguesser
 spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
   author: sportshead
   flag: gaslightCTF{-3,98,726}
   flagFormat: gaslightCTF{x,y,z}
@@ -20,4 +21,4 @@ spec:
     - forensics
   attachments:
     - fileName: target.png
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/118ymyj3jf49jn83lqj9j681hwjjg286-mineguesser/target.png
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/bifqxjz49cs9wnns35z57ya26h5sfmbj-mineguesser/target.png
