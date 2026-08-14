@@ -28,4 +28,4 @@ spec:
       image: ghcr.io/gaslightctf/challs-2026/messageboard-db:dev
   attachments:
     - fileName: messageboard.tar.zst
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/r6w5n5ysll7y74bc94sk5264fdrw7kpb-messageboard/messageboard.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/r33lrnjkh8sm2xrmmnjk14phfxixlh2k-messageboard/messageboard.tar.zst
