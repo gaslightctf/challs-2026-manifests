@@ -4,6 +4,7 @@ metadata:
   namespace: berg
   name: ucas
 spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
   author: sportshead
   flag: gaslightCTF{m4n1f3st1ng_e4sy_0ff3r5_f0r_ev3ry0n3}
   flagFormat: gaslightCTF{...}
@@ -26,4 +27,4 @@ spec:
           path: /flag
   attachments:
     - fileName: ucas.tar.zst
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/5cp0p7p614zr5hn8h95mh39w1z579c3g-ucas/ucas.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/2sc3rgd21xbsm9z707cqd8xz5c363qym-ucas/ucas.tar.zst
