@@ -1,0 +1,23 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: meow
+spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
+  author: sportshead
+  flag: gaslightCTF{37.447,25.327}
+  flagFormat: gaslightCTF{1.234,56.789}
+  description: 'Flag format: <code>gaslightCTF{LAT,LONG}</code> (round to 3 d.p.)
+
+    <br>
+
+    tip: please try &pm;0.001 on your longitude!
+
+    '
+  difficulty: easy
+  categories:
+    - misc
+  attachments:
+    - fileName: IMG_4731.jpeg
+      downloadUrl: https://pantry.gaslightctf.cooking/9xkkhp8m30raa906rbf5vab7qlzhvnxf-meow/IMG_4731.jpeg

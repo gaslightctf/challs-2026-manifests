@@ -17,6 +17,6 @@ spec:
     - crypto
   attachments:
     - fileName: chall.py
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/sh0rmfc1m6qbnq65zyxvbvfgqrd8ra2n-newjeans-is-five/chall.py
+      downloadUrl: https://pantry.gaslightctf.cooking/sh0rmfc1m6qbnq65zyxvbvfgqrd8ra2n-newjeans-is-five/chall.py
     - fileName: output.txt
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/sh0rmfc1m6qbnq65zyxvbvfgqrd8ra2n-newjeans-is-five/output.txt
+      downloadUrl: https://pantry.gaslightctf.cooking/sh0rmfc1m6qbnq65zyxvbvfgqrd8ra2n-newjeans-is-five/output.txt

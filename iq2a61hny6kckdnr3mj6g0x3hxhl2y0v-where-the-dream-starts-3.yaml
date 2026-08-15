@@ -22,6 +22,6 @@ spec:
     - crypto
   attachments:
     - fileName: encrypt.py
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/iq2a61hny6kckdnr3mj6g0x3hxhl2y0v-where-the-dream-starts-3/encrypt.py
+      downloadUrl: https://pantry.gaslightctf.cooking/iq2a61hny6kckdnr3mj6g0x3hxhl2y0v-where-the-dream-starts-3/encrypt.py
     - fileName: output.txt
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/iq2a61hny6kckdnr3mj6g0x3hxhl2y0v-where-the-dream-starts-3/output.txt
+      downloadUrl: https://pantry.gaslightctf.cooking/iq2a61hny6kckdnr3mj6g0x3hxhl2y0v-where-the-dream-starts-3/output.txt

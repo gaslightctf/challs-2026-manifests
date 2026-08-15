@@ -17,6 +17,6 @@ spec:
     - crypto
   attachments:
     - fileName: encrypt.py
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/dqqkssxjf56czn67vkjgr0y5ls3ml4ak-affine-hill/encrypt.py
+      downloadUrl: https://pantry.gaslightctf.cooking/dqqkssxjf56czn67vkjgr0y5ls3ml4ak-affine-hill/encrypt.py
     - fileName: output.txt
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/dqqkssxjf56czn67vkjgr0y5ls3ml4ak-affine-hill/output.txt
+      downloadUrl: https://pantry.gaslightctf.cooking/dqqkssxjf56czn67vkjgr0y5ls3ml4ak-affine-hill/output.txt

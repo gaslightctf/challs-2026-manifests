@@ -1,0 +1,23 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: quack
+spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
+  author: sportshead
+  flag: gaslightCTF{52.196,0.115}
+  flagFormat: gaslightCTF{1.234,56.789}
+  description: 'Flag format: <code>gaslightCTF{LAT,LONG}</code> (round to 3 d.p.)
+
+    <br>
+
+    tip: please try &pm;0.001 on your latitude!
+
+    '
+  difficulty: easy
+  categories:
+    - misc
+  attachments:
+    - fileName: IMG_0734.jpeg
+      downloadUrl: https://pantry.gaslightctf.cooking/1na94670slq6c3kq7wia54sp46ilpp4d-quack/IMG_0734.jpeg

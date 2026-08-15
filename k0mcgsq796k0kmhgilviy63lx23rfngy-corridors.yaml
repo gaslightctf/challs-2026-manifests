@@ -1,0 +1,28 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: corridors
+spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
+  author: sportshead
+  flag: gaslightCTF{fr33d0m_4t_l4st}
+  flagFormat: gaslightCTF{...}
+  description: 'The path will guide you to the flag.
+
+    '
+  difficulty: easy
+  categories:
+    - web
+  containers:
+    - hostname: corridors
+      image: ghcr.io/gaslightctf/challs-2026/corridors:dev
+      ports:
+        - port: 3000
+          protocol: tcp
+          appProtocol: http
+          type: publicHttpRoute
+      dynamicFlag:
+        env:
+          name: FLAG
+  attachments: []

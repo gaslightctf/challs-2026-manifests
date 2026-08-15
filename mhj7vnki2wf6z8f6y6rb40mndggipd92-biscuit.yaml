@@ -26,4 +26,4 @@ spec:
           name: FLAG
   attachments:
     - fileName: biscuit.tar.zst
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/mhj7vnki2wf6z8f6y6rb40mndggipd92-biscuit/biscuit.tar.zst
+      downloadUrl: https://pantry.gaslightctf.cooking/mhj7vnki2wf6z8f6y6rb40mndggipd92-biscuit/biscuit.tar.zst
