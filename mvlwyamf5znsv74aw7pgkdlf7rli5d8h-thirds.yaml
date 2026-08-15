@@ -1,0 +1,31 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: thirds
+spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
+  author: sportshead
+  flag: gaslightCTF{th1rd_t1m35_th3_ch4rm}
+  flagFormat: gaslightCTF{...}
+  description: 'Are you enjoying the OSINT photography? I try to follow the rule of
+    thirds!
+
+    '
+  difficulty: easy
+  categories:
+    - pwn
+  containers:
+    - hostname: chall
+      image: ghcr.io/gaslightctf/challs-2026/thirds:dev
+      ports:
+        - port: 1337
+          protocol: tcp
+          appProtocol: tcp
+          type: publicTlsRoute
+      dynamicFlag:
+        content:
+          path: /flag
+  attachments:
+    - fileName: thirds.tar.zst
+      downloadUrl: https://pantry.gaslightctf.cooking/mvlwyamf5znsv74aw7pgkdlf7rli5d8h-thirds/thirds.tar.zst

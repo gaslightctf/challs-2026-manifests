@@ -1,0 +1,30 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: good-enough
+spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
+  author: sportshead
+  flag: gaslightCTF{du_b1st_gut_g3nuuuuu_uuuuu_uuug}
+  flagFormat: gaslightCTF{...}
+  description: 'you are good enough :)
+
+    '
+  difficulty: easy
+  categories:
+    - pwn
+  containers:
+    - hostname: chall
+      image: ghcr.io/gaslightctf/challs-2026/good-enough:dev
+      ports:
+        - port: 1337
+          protocol: tcp
+          appProtocol: tcp
+          type: publicTlsRoute
+      dynamicFlag:
+        content:
+          path: /flag
+  attachments:
+    - fileName: good-enough.tar.zst
+      downloadUrl: https://pantry.gaslightctf.cooking/ar0s4l6f6p6s8fhz2q51jyxmwlvprra5-good-enough/good-enough.tar.zst
