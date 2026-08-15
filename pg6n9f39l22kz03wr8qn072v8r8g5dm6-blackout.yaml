@@ -1,0 +1,20 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: blackout
+spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
+  author: riyc
+  flag: gaslightCTF{c0w4bung4_f1le_4ev3r}
+  flagFormat: gaslightCTF{...}
+  description: 'i was doing my work, then my power went off! my computer spat this
+    out afterwards, can you recover the flag?
+
+    '
+  difficulty: easy
+  categories:
+    - forensics
+  attachments:
+    - fileName: recovered_file
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/pg6n9f39l22kz03wr8qn072v8r8g5dm6-blackout/recovered_file
