@@ -1,0 +1,20 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: icon-sketch
+spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
+  author: riyc
+  flag: gaslightCTF{i5_th4t_supp0s3d_2b_p1ss?}
+  flagFormat: gaslightCTF{...}
+  description: 'the pee people found the first version of the gaslightCTF icon...
+    apparently theres a flag in here?
+
+    '
+  difficulty: easy
+  categories:
+    - forensics
+  attachments:
+    - fileName: icon.zip
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/avpi6llp2gs0fc2kcd6r9m7n2gzpzm9x-icon-sketch/icon.zip
