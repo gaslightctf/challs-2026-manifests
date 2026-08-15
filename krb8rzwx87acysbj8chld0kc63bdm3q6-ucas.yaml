@@ -2,13 +2,13 @@ apiVersion: berg.norelect.ch/v1
 kind: Challenge
 metadata:
   namespace: berg
-  name: good-enough
+  name: ucas
 spec:
   hideUntil: '2026-08-16T00:00:00+00:00'
   author: sportshead
-  flag: gaslightCTF{du_b1st_gut_g3nuuuuu_uuuuu_uuug}
+  flag: gaslightCTF{m4n1f3st1ng_e4sy_0ff3r5_f0r_ev3ry0n3}
   flagFormat: gaslightCTF{...}
-  description: 'you are good enough :)
+  description: 'these uni apps are getting harder and harder every year!
 
     '
   difficulty: easy
@@ -16,7 +16,7 @@ spec:
     - pwn
   containers:
     - hostname: chall
-      image: ghcr.io/gaslightctf/challs-2026/good-enough:dev
+      image: ghcr.io/gaslightctf/challs-2026/ucas:dev
       ports:
         - port: 1337
           protocol: tcp
@@ -26,5 +26,5 @@ spec:
         content:
           path: /flag
   attachments:
-    - fileName: good-enough.tar.zst
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/f811ananmmc3vpylaww9yvrw1qgnrpi4-good-enough/good-enough.tar.zst
+    - fileName: ucas.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/krb8rzwx87acysbj8chld0kc63bdm3q6-ucas/ucas.tar.zst
