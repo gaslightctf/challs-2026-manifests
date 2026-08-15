@@ -27,4 +27,4 @@ spec:
           path: /flag
   attachments:
     - fileName: ucas.tar.zst
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/krb8rzwx87acysbj8chld0kc63bdm3q6-ucas/ucas.tar.zst
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/0jimw4gn2n8bnggw9qvjq2p7ijn4ny9a-ucas/ucas.tar.zst
