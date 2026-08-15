@@ -9,17 +9,16 @@ spec:
   author: sportshead
   flag: gaslightCTF{p14n01nr0bl0x1sh4rd}
   flagFormat: gaslightCTF{...}
-  description: 'this song’s ending sounds a bit strange…
+  description: 'this song''s ending sounds a bit strange...
 
     <br><br>
 
-    note: punctuation has been omitted. insert brackets as appropriate, there is no
-    other punctuation
+    note: insert brackets as appropriate, there is no other punctuation
 
     '
   difficulty: medium
   categories:
-    - forensics
+    - misc
   attachments:
     - fileName: ttyut-iiiuy+12.wav
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/ml72ysiwk674xfbjw4p2dvy7g86ngv3r-tuning-keyboard-6/ttyut-iiiuy+12.wav
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/v2w89gg03ma6zrd3hn6yvq2347v17wc2-tuning-keyboard-6/ttyut-iiiuy+12.wav
