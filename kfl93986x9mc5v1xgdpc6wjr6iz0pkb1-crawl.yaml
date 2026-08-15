@@ -1,0 +1,28 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: crawl
+spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
+  author: sportshead
+  flag: gaslightCTF{LLM_1nduc3d_4r4chn0ph0b1a}
+  flagFormat: gaslightCTF{...}
+  description: 'AI crawlers never respect the rules...
+
+    '
+  difficulty: easy
+  categories:
+    - web
+  containers:
+    - hostname: nginx
+      image: ghcr.io/gaslightctf/challs-2026/crawl:dev
+      ports:
+        - port: 80
+          protocol: tcp
+          appProtocol: http
+          type: publicHttpRoute
+      dynamicFlag:
+        content:
+          path: /www/super_secret/_flag.txt
+  attachments: []

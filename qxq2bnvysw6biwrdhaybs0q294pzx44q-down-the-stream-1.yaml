@@ -1,0 +1,21 @@
+apiVersion: berg.norelect.ch/v1
+kind: Challenge
+metadata:
+  namespace: berg
+  name: down-the-stream-1
+spec:
+  hideUntil: '2026-08-16T00:00:00+00:00'
+  author: william_etotheipi
+  flag: gaslightCTF{d0nt-r3veal-y0ur-co3ff-v3ct0r}
+  flagFormat: gaslightCTF{...}
+  description: 'A synchronous stream cipher sounds like a very secure cipher!
+
+    '
+  difficulty: medium
+  categories:
+    - crypto
+  attachments:
+    - fileName: chall.py
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/qxq2bnvysw6biwrdhaybs0q294pzx44q-down-the-stream-1/chall.py
+    - fileName: output.txt
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/qxq2bnvysw6biwrdhaybs0q294pzx44q-down-the-stream-1/output.txt
