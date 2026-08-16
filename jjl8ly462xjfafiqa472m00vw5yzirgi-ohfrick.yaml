@@ -14,4 +14,6 @@ spec:
   difficulty: easy
   categories:
     - rev
-  attachments: []
+  attachments:
+    - fileName: code.py
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/jjl8ly462xjfafiqa472m00vw5yzirgi-ohfrick/code.py
