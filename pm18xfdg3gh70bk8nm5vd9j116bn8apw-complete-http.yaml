@@ -15,7 +15,7 @@ spec:
   categories:
     - crypto
   attachments:
-    - fileName: complete-http.pcapng
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/69jn6m3pcqc6yrvclcf8sk6yy4f0nmgh-complete-http/complete-http.pcapng
     - fileName: complete-http
-      downloadUrl: https://pantry-dev.gaslightctf.cooking/69jn6m3pcqc6yrvclcf8sk6yy4f0nmgh-complete-http/complete-http
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/pm18xfdg3gh70bk8nm5vd9j116bn8apw-complete-http/complete-http
+    - fileName: complete-http.pcapng
+      downloadUrl: https://pantry-dev.gaslightctf.cooking/pm18xfdg3gh70bk8nm5vd9j116bn8apw-complete-http/complete-http.pcapng
